@@ -26,8 +26,7 @@ export class HomeComponent implements OnInit {
     });
   }
   cancelRegisterMode(registerMode:boolean){
-    debugger;
-    console.log('inside cancelRegister mode');
+
     this.registermode = registerMode;
   }
 }
